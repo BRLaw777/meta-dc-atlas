@@ -1,0 +1,1265 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.7635,
+          40.0812
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Prometheus AI Supercluster \u2014 New Albany, OH (Flagship #1)",
+        "city": "New Albany, Licking / Franklin Co., OH",
+        "region": "US \u2014 Midwest (PJM)",
+        "lat": 40.0812,
+        "lon": -82.7635,
+        "status": "Operational",
+        "category": "Owned & Partner BTM AI Supercluster",
+        "mw": 1000.0,
+        "mw_unit": "MW IT (Phase 1 Live 2026; scaling to 1.5\u20133.0 GW multi-campus constellation)",
+        "pue": "1.08 (Fleet); AALC / FLC Liquid Cooled",
+        "hardware": "Catalina GB200 NVL72 (Ariel 2-rack) & Clemente GB300 NVL72 (135 kW/rack); San Miguel Vera Rubin NVL72 (>170 kW/rack) next (~1M GPUs target)",
+        "power_utility": "AEP Ohio + Williams (WMB) 2x 200 MW (400 MW) BTM On-Site Gas + Vistra / Oklo / TerraPower Nuclear PPAs",
+        "cooling_water": "Modular Air-Assisted Liquid Cooling (AALC), Facility Liquid Cooling (FLC) & rapid-deployment weatherproof tents; 86 ML water (2024)",
+        "docket_gate": "AEP Ohio Data Center Tariff (PUCO Case 24-0508-EL-ATA, 85% minimum demand); 14 nearby Ohio municipal bans passed Nov 3, 2026 (New Albany incorporated park exempt)",
+        "conf": "[HIGH \u2014 Meta Engineering Oct. 19, 2026; MEDIUM \u2014 MW/Williams BTM]",
+        "obs_date": "2026-11-07",
+        "notes": "Trained Muse & Muse Wonder frontier models (>85% pre-training goodput, >90% RL goodput, >54k GPU-hr MTBI). 2024 base campus consumed 521,217 MWh before Prometheus ramp."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.652,
+          32.4632
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Hyperion AI Supercluster \u2014 Richland Parish, LA (Flagship #2 / Project Sucre)",
+        "city": "Holly Ridge / Rayville / Delhi, Richland Parish, LA",
+        "region": "US \u2014 South (MISO South)",
+        "lat": 32.4632,
+        "lon": -91.652,
+        "status": "Under Construction",
+        "category": "Blue Owl 80% / Meta 20% JV (Louisiana Venture VIE)",
+        "mw": 2000.0,
+        "mw_unit": "MW IT Phase 1 by 2030 (Scaling to 5,000 MW / 5.0 GW by ~2032; 7,540 MW total planned utility gas)",
+        "pue": "Closed-Loop Liquid Cooling (Est. ~1.08\u20131.10)",
+        "hardware": "Next-Gen NVIDIA GB300 NVL72 & Vera Rubin NVL72 (San Miguel >170 kW/rack) + MTIA v3 for Meta Superintelligence Labs",
+        "power_utility": "Entergy Louisiana (3x 754 MW = 2,262 MW CCGTs approved in LPSC U-37425 + 7x 754 MW = 5,278 MW pending in U-37882 + up to 4,000 MW solar)",
+        "cooling_water": "Closed-loop liquid cooling across 4M+ sq ft (3,650 acres); target water withdrawal below prior irrigated farmland baseline",
+        "docket_gate": "LPSC Docket U-37425 (Phase 1 Laidley LLC approved 4-1 Aug. 20, 2025; Earthjustice/UCS appeal in 19th JDC Baton Rouge) & Docket U-37882 (Phase 2 Evest LLC 7 gas plants + 240 mi 500 kV; LPSC vote scheduled Dec. 16, 2026)",
+        "conf": "[HIGH \u2014 Q3 2026 10-Q Note 5 & LPSC Dockets U-37425 / U-37882; MEDIUM \u2014 5 GW target]",
+        "obs_date": "2026-11-07",
+        "notes": "Oct 2025 Blue Owl JV ($27B Phase 1 budget; $27.3B Beignet Investor bonds; $12.31B initial lease starting 2029; $28.09B initial RVG; expanded July 13, 2026 to $50B+ / 5 GW)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.382,
+          31.9686
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "El Paso AI Campus \u2014 El Paso, TX (Flagship #3 / Texas Venture VIE)",
+        "city": "Northeast El Paso, El Paso Co., TX",
+        "region": "US \u2014 Southwest (WECC / EPE)",
+        "lat": 31.9686,
+        "lon": -106.382,
+        "status": "Under Construction",
+        "category": "20% Meta / 80% Partner Co-Development JV (Texas Venture VIE)",
+        "mw": 1000.0,
+        "mw_unit": "MW Facility Capacity ($14B Total JV Budget per Q3 2026 10-Q Note 5; >$10B Meta announcement)",
+        "pue": "Closed-Loop Liquid Cooling (LEED Gold target)",
+        "hardware": "AI-Optimized Blackwell / Vera Rubin & MTIA Clusters",
+        "power_utility": "El Paso Electric (Dedicated Newman / Copper gas & solar expansion; non-ERCOT WECC grid)",
+        "cooling_water": "Closed-loop liquid cooling + El Paso Water utilities infrastructure upgrades",
+        "docket_gate": "PUCT / El Paso Electric large-load generation certificates; July 2026 transfer of $2.26B CIP/land into unconsolidated Texas Venture (lease commences 2028; 4-yr initial term, up to 20 yrs)",
+        "conf": "[HIGH \u2014 Q3 2026 10-Q Note 5 & Meta March 27, 2026 announcement]",
+        "obs_date": "2026-11-07",
+        "notes": "In July 2026, Meta contributed $2.26B of held-for-sale Texas CIP/land into the Texas Venture (receiving $1.04B distribution), lifting total VIE RVG exposure to $41.49B."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.512,
+          40.068
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Lebanon LEAP AI Mega-Campus \u2014 Lebanon, IN (Flagship #4)",
+        "city": "Lebanon, Boone Co. (LEAP District), IN",
+        "region": "US \u2014 Midwest (MISO)",
+        "lat": 40.068,
+        "lon": -86.512,
+        "status": "Under Construction",
+        "category": "Owned AI-Optimized Mega-Campus",
+        "mw": 1000.0,
+        "mw_unit": "MW Facility Capacity (~4M sq ft across 13 buildings on 1,437 acres; $10B+ investment)",
+        "pue": "Closed-Loop Liquid Cooling (~1.08 target)",
+        "hardware": "AI-Optimized GPU / MTIA Training & Inference Fleet",
+        "power_utility": "AES Indiana / CenterPoint / Wabash Valley Power (MISO Zone 6) + Indiana clean energy PPAs",
+        "cooling_water": "Closed-loop zero-water evaporative cooling most of year; LEAP Wabash River pipeline water controversy",
+        "docket_gate": "IURC large-load tariff & LEAP District municipal water transfer permits; broke ground Feb. 11, 2026 (first buildings expected late 2027)",
+        "conf": "[HIGH \u2014 Meta Feb. 11, 2026 Official Release]",
+        "obs_date": "2026-11-07",
+        "notes": "Meta's 31st global data center; 10 data center halls + 3 support buildings totaling ~4M sq ft."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.4647,
+          41.6531
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Altoona Campus & AI Expansion \u2014 Altoona, IA (Flagship #5)",
+        "city": "Altoona, Polk Co., IA",
+        "region": "US \u2014 Midwest (MISO)",
+        "lat": 41.6531,
+        "lon": -93.4647,
+        "status": "Operational",
+        "category": "Owned Campus + $10B+ 1 GW AI Expansion",
+        "mw": 1000.0,
+        "mw_unit": "MW Combined Campus (1,585,392 MWh in 2024 = ~240 MW active + ~760 MW AI expansion under construction)",
+        "pue": "1.08",
+        "hardware": "Open Rack v3 / Blackwell / MTIA + Core FoA Compute",
+        "power_utility": "MidAmerican Energy (100% matched with Iowa wind + new gas/wind capacity)",
+        "cooling_water": "242 megaliters water withdrawal in 2024; newer AI halls use closed-loop liquid cooling",
+        "docket_gate": "Iowa Utilities Commission (IUC) MidAmerican resource adequacy dockets; 5,000+ peak construction workers on site",
+        "conf": "[HIGH \u2014 Meta 2025 Env. Data Index p. 6; MEDIUM \u2014 SemiAnalysis 1 GW expansion]",
+        "obs_date": "2026-11-07",
+        "notes": "Second-highest electricity user in Meta's 2024 fleet (1,585,392 MWh, up +27.5% YoY); undergoing a $10B+ AI overhaul."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.892,
+          44.2896
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Prineville Data Center Campus \u2014 Prineville, OR",
+        "city": "Prineville, Crook Co., OR",
+        "region": "US \u2014 Pacific NW (WECC)",
+        "lat": 44.2896,
+        "lon": -120.892,
+        "status": "Operational",
+        "category": "Owned Campus",
+        "mw": 300.0,
+        "mw_unit": "MW Est. Capacity (1,728,291 MWh consumed in 2024 = 197.3 MW average continuous draw)",
+        "pue": "1.07\u20131.08",
+        "hardware": "OCP General Compute, Storage & AI Inference",
+        "power_utility": "area utilities / Bonneville Power Administration & Pacificorp (hydro/solar/wind PPAs)",
+        "cooling_water": "328 megaliters water withdrawal in 2024; high-desert evaporative & liquid cooling (~3.2M sq ft)",
+        "docket_gate": "Oregon HB 4029 / OPUC HB 3546 POWER Act large-load cost-allocation rules",
+        "conf": "[HIGH \u2014 Meta 2025 Env. Data Index p. 6 (MWh); LOW \u2014 MW est.]",
+        "obs_date": "2026-11-07",
+        "notes": "Meta's first owned data center (2011) and largest 2024 electricity consumer (1.73 TWh, +25.7% YoY)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.085,
+          41.1275
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Sarpy / Papillion Data Center Campus \u2014 Papillion, NE",
+        "city": "Papillion, Sarpy Co., NE",
+        "region": "US \u2014 Plains (SPP)",
+        "lat": 41.1275,
+        "lon": -96.085,
+        "status": "Operational",
+        "category": "Owned Campus",
+        "mw": 220.0,
+        "mw_unit": "MW Est. Capacity (1,258,239 MWh consumed in 2024 = 143.6 MW average draw)",
+        "pue": "1.08",
+        "hardware": "FoA General Compute & AI Inference ($2.5B+ invested)",
+        "power_utility": "Omaha Public Power District (OPPD)",
+        "cooling_water": "142 megaliters water withdrawal in 2024",
+        "docket_gate": "OPPD large-load tariff & SPP transmission queue",
+        "conf": "[HIGH \u2014 Meta 2025 Env. Data Index p. 6 (MWh); LOW \u2014 MW est.]",
+        "obs_date": "2026-11-07",
+        "notes": "Third-largest Meta campus by 2024 electricity consumption (1.26 TWh)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.738,
+          33.6265
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Stanton Springs / Newton County Campus \u2014 Social Circle, GA",
+        "city": "Social Circle, Newton Co., GA",
+        "region": "US \u2014 Southeast (SERC)",
+        "lat": 33.6265,
+        "lon": -83.738,
+        "status": "Operational",
+        "category": "Owned Campus",
+        "mw": 210.0,
+        "mw_unit": "MW Est. Capacity (1,184,380 MWh consumed in 2024 = 135.2 MW average draw)",
+        "pue": "1.08",
+        "hardware": "FoA General Compute & AI Inference ($1B+ invested)",
+        "power_utility": "Georgia Power / Walton EMC (100% renewable solar PPAs)",
+        "cooling_water": "146 megaliters water withdrawal in 2024",
+        "docket_gate": "Georgia PSC flip (3-2 Dem majority Nov. 3, 2026) & Gov.-elect Keisha Lance Bottoms large-load rate scrutiny",
+        "conf": "[HIGH \u2014 Meta 2025 Env. Data Index p. 6 (MWh); LOW \u2014 MW est.]",
+        "obs_date": "2026-11-07",
+        "notes": "Fourth-largest Meta campus in 2024 (1.18 TWh, up +22.3% YoY)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.7725,
+          34.8122
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Los Lunas Data Center Campus \u2014 Los Lunas, NM",
+        "city": "Los Lunas, Valencia Co., NM",
+        "region": "US \u2014 Southwest (WECC)",
+        "lat": 34.8122,
+        "lon": -106.7725,
+        "status": "Operational",
+        "category": "Owned Campus",
+        "mw": 200.0,
+        "mw_unit": "MW Est. Capacity (1,143,067 MWh consumed in 2024 = 130.5 MW average draw)",
+        "pue": "1.08",
+        "hardware": "FoA Compute & Storage ($750M+ invested)",
+        "power_utility": "Public Service Company of New Mexico (PNM solar/wind PPAs)",
+        "cooling_water": "252 megaliters water withdrawal in 2024 (high water-stress basin)",
+        "docket_gate": "NMPRC solar/storage PPA approvals",
+        "conf": "[HIGH \u2014 Meta 2025 Env. Data Index p. 6 (MWh); LOW \u2014 MW est.]",
+        "obs_date": "2026-11-07",
+        "notes": "Fifth-largest Meta campus in 2024 (1.14 TWh)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.015,
+          40.282
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Eagle Mountain Data Center Campus \u2014 Eagle Mountain, UT",
+        "city": "Eagle Mountain, Utah Co., UT",
+        "region": "US \u2014 Mountain West (WECC)",
+        "lat": 40.282,
+        "lon": -112.015,
+        "status": "Operational",
+        "category": "Owned Campus",
+        "mw": 220.0,
+        "mw_unit": "MW Est. Capacity (1,115,619 MWh consumed in 2024 = 127.4 MW average draw; +2M sq ft expansion)",
+        "pue": "1.08",
+        "hardware": "FoA Compute & AI Clusters",
+        "power_utility": "Rocky Mountain Power (PacifiCorp Schedule 32 renewable PPAs)",
+        "cooling_water": "133 megaliters water withdrawal in 2024",
+        "docket_gate": "Utah PSC large-load Schedule 32 rate proceedings",
+        "conf": "[HIGH \u2014 Meta 2025 Env. Data Index p. 6 (MWh); LOW \u2014 MW est.]",
+        "obs_date": "2026-11-07",
+        "notes": "Electricity consumption rose +41.6% YoY in 2024 to 1.12 TWh."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.311,
+          32.9825
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Fort Worth Data Center Campus \u2014 Fort Worth, TX",
+        "city": "Fort Worth, Tarrant Co., TX",
+        "region": "US \u2014 Texas (ERCOT)",
+        "lat": 32.9825,
+        "lon": -97.311,
+        "status": "Operational",
+        "category": "Owned Campus",
+        "mw": 195.0,
+        "mw_unit": "MW Est. Capacity (1,109,004 MWh consumed in 2024 = 126.6 MW average draw)",
+        "pue": "1.08",
+        "hardware": "5 Data Center Buildings (2.6M sq ft, $1.5B invested)",
+        "power_utility": "Oncor / ERCOT (Texas wind/solar PPAs)",
+        "cooling_water": "311 megaliters water withdrawal in 2024",
+        "docket_gate": "Grandfathered operational ERCOT interconnection (exempt from Aug. 2026 TX new-queue freeze)",
+        "conf": "[HIGH \u2014 Meta 2025 Env. Data Index p. 6 (MWh); LOW \u2014 MW est.]",
+        "obs_date": "2026-11-07",
+        "notes": "Consumed 1.11 TWh in 2024 across five buildings."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.269,
+          37.5085
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Henrico / White Oak Data Center Campus \u2014 Sandston, VA",
+        "city": "Sandston, Henrico Co., VA",
+        "region": "US \u2014 Mid-Atlantic (PJM)",
+        "lat": 37.5085,
+        "lon": -77.269,
+        "status": "Operational",
+        "category": "Owned Campus",
+        "mw": 170.0,
+        "mw_unit": "MW Est. Capacity (948,859 MWh consumed in 2024 = 108.3 MW average draw)",
+        "pue": "1.08",
+        "hardware": "FoA Compute & AI Inference ($1.5B+ invested)",
+        "power_utility": "Dominion Energy Virginia (100% solar PPAs)",
+        "cooling_water": "92 megaliters water withdrawal in 2024",
+        "docket_gate": "Virginia SCC large-load tariff proceedings & PJM capacity auction pass-throughs",
+        "conf": "[HIGH \u2014 Meta 2025 Env. Data Index p. 6 (MWh); LOW \u2014 MW est.]",
+        "obs_date": "2026-11-07",
+        "notes": "Consumed 948,859 MWh in 2024 (+17.9% YoY)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.582,
+          34.856
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Huntsville Data Center Campus \u2014 Huntsville, AL",
+        "city": "Huntsville, Madison Co., AL",
+        "region": "US \u2014 Southeast (TVA)",
+        "lat": 34.856,
+        "lon": -86.582,
+        "status": "Operational",
+        "category": "Owned Campus",
+        "mw": 160.0,
+        "mw_unit": "MW Est. Capacity (865,803 MWh consumed in 2024 = 98.8 MW average draw; $1.5B+ invested)",
+        "pue": "1.08",
+        "hardware": "FoA & AI Compute",
+        "power_utility": "Huntsville Utilities / Tennessee Valley Authority (TVA solar PPAs)",
+        "cooling_water": "209 megaliters water withdrawal in 2024",
+        "docket_gate": "TVA integrated resource plan",
+        "conf": "[HIGH \u2014 Meta 2025 Env. Data Index p. 6 (MWh); LOW \u2014 MW est.]",
+        "obs_date": "2026-11-07",
+        "notes": "Consumed 865,803 MWh in 2024 (+41.0% YoY)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.865,
+          35.318
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Forest City Data Center Campus \u2014 Forest City, NC",
+        "city": "Forest City, Rutherford Co., NC",
+        "region": "US \u2014 Southeast (SERC)",
+        "lat": 35.318,
+        "lon": -81.865,
+        "status": "Operational",
+        "category": "Owned Campus",
+        "mw": 100.0,
+        "mw_unit": "MW Est. Capacity (535,555 MWh consumed in 2024 = 61.1 MW average draw)",
+        "pue": "1.08",
+        "hardware": "East Coast General Compute & Storage (~1M+ sq ft)",
+        "power_utility": "Duke Energy Carolinas",
+        "cooling_water": "16 megaliters water withdrawal in 2024",
+        "docket_gate": "NCUC Duke Energy carbon plan",
+        "conf": "[HIGH \u2014 Meta 2025 Env. Data Index p. 6 (MWh); LOW \u2014 MW est.]",
+        "obs_date": "2026-11-07",
+        "notes": "Meta's second data center (opened 2012); steady 535,555 MWh draw."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.751,
+          41.895
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "DeKalb Data Center Campus \u2014 DeKalb, IL",
+        "city": "DeKalb, DeKalb Co., IL",
+        "region": "US \u2014 Midwest (PJM ComEd)",
+        "lat": 41.895,
+        "lon": -88.751,
+        "status": "Operational",
+        "category": "Owned Campus",
+        "mw": 150.0,
+        "mw_unit": "MW Est. Capacity (372,339 MWh consumed in 2024, ramping toward ~150 MW)",
+        "pue": "1.08",
+        "hardware": "FoA & AI Compute ($1B+ invested)",
+        "power_utility": "ComEd / PJM + Constellation Clinton 1,121 MW Nuclear PPA (starting June 2027)",
+        "cooling_water": "105 megaliters water withdrawal in 2024",
+        "docket_gate": "ICC ComEd large-load interconnection & Constellation Clinton nuclear PPA",
+        "conf": "[HIGH \u2014 Meta 2025 Env. Data Index p. 6 (MWh); LOW \u2014 MW est.]",
+        "obs_date": "2026-11-07",
+        "notes": "Electricity draw jumped +167.9% YoY in 2024 to 372,339 MWh."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.412,
+          36.418
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Gallatin Data Center Campus \u2014 Gallatin, TN",
+        "city": "Gallatin, Sumner Co., TN",
+        "region": "US \u2014 Southeast (TVA)",
+        "lat": 36.418,
+        "lon": -86.412,
+        "status": "Operational",
+        "category": "Owned Campus",
+        "mw": 150.0,
+        "mw_unit": "MW Est. Capacity (359,730 MWh consumed in 2024, ramping toward ~150 MW)",
+        "pue": "1.08",
+        "hardware": "FoA & AI Compute ($1B+ invested)",
+        "power_utility": "Gallatin Dept. of Electricity / TVA",
+        "cooling_water": "205 megaliters water withdrawal in 2024",
+        "docket_gate": "TVA transmission upgrades",
+        "conf": "[HIGH \u2014 Meta 2025 Env. Data Index p. 6 (MWh); LOW \u2014 MW est.]",
+        "obs_date": "2026-11-07",
+        "notes": "Electricity draw more than tripled in 2024 (+208.7% YoY to 359,730 MWh)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.625,
+          33.321
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Mesa Data Center Campus \u2014 Mesa, AZ",
+        "city": "Mesa, Maricopa Co., AZ",
+        "region": "US \u2014 Southwest (WECC)",
+        "lat": 33.321,
+        "lon": -111.625,
+        "status": "Operational",
+        "category": "Owned Campus",
+        "mw": 150.0,
+        "mw_unit": "MW Est. Capacity (24,657 MWh initial 2024 ramp; $800M+ 5-building campus)",
+        "pue": "1.08",
+        "hardware": "FoA & AI Compute",
+        "power_utility": "Salt River Project (SRP solar/storage PPAs)",
+        "cooling_water": "57 megaliters water withdrawal in 2024 (desert water-restoration projects)",
+        "docket_gate": "SRP large-load E-27 tariff",
+        "conf": "[HIGH \u2014 Meta 2025 Env. Data Index p. 6 (MWh); LOW \u2014 MW est.]",
+        "obs_date": "2026-11-07",
+        "notes": "First reported electricity in 2024 (24,657 MWh) as Phase 1 came online."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.578,
+          39.298
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Kansas City Data Center Campus \u2014 Kansas City, MO",
+        "city": "Kansas City, Clay / Platte Co. (Golden Plains), MO",
+        "region": "US \u2014 Plains (SPP)",
+        "lat": 39.298,
+        "lon": -94.578,
+        "status": "Operational",
+        "category": "Owned Campus",
+        "mw": 180.0,
+        "mw_unit": "MW Est. Capacity (22,963 MWh initial 2024 ramp; $2.5B+ campus)",
+        "pue": "1.08",
+        "hardware": "FoA & AI Compute",
+        "power_utility": "Evergy Missouri West (SPP)",
+        "cooling_water": "41 megaliters water withdrawal in 2024",
+        "docket_gate": "Missouri PSC Evergy large-load tariff",
+        "conf": "[HIGH \u2014 Meta 2025 Env. Data Index p. 6 (MWh); LOW \u2014 MW est.]",
+        "obs_date": "2026-11-07",
+        "notes": "First came online in 2024 (22,963 MWh) with multi-building expansion through 2026."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.415,
+          43.475
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Kuna / Boise Data Center Campus \u2014 Kuna, ID",
+        "city": "Kuna, Ada Co., ID",
+        "region": "US \u2014 Mountain West (WECC)",
+        "lat": 43.475,
+        "lon": -116.415,
+        "status": "Operational",
+        "category": "Owned Campus",
+        "mw": 120.0,
+        "mw_unit": "MW Est. Capacity ($800M+ campus, online late 2024 / 2025)",
+        "pue": "1.08",
+        "hardware": "FoA & AI Compute",
+        "power_utility": "Idaho Power (Clean Energy Your Way solar/battery PPAs)",
+        "cooling_water": "Closed-loop water-efficient cooling + Kuna water reuse system funded by Meta",
+        "docket_gate": "Idaho PUC Schedule 20 speculative large-load tariff",
+        "conf": "[MEDIUM \u2014 Meta Data Centers Official Location Profile; LOW \u2014 MW est.]",
+        "obs_date": "2026-11-07",
+        "notes": "Complements Prineville OR for Pacific Northwest traffic."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.385,
+          31.135
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Temple Data Center Campus \u2014 Temple, TX",
+        "city": "Temple, Bell Co., TX",
+        "region": "US \u2014 Texas (ERCOT)",
+        "lat": 31.135,
+        "lon": -97.385,
+        "status": "Operational",
+        "category": "Owned Campus",
+        "mw": 152.0,
+        "mw_unit": "MW Planned / Ramping Capacity (900,000 sq ft, $800M+ investment, online 2024\u20132025)",
+        "pue": "1.08",
+        "hardware": "Hyperscale General & AI Compute",
+        "power_utility": "Oncor / ERCOT",
+        "cooling_water": "Closed-loop liquid cooling",
+        "docket_gate": "ERCOT operational interconnection",
+        "conf": "[MEDIUM \u2014 Compute Atlas (152 MW) & Meta Official Profile]",
+        "obs_date": "2026-11-07",
+        "notes": "Meta's second operational Texas campus between Austin and Waco."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.442,
+          53.415
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Clonee Data Center Campus \u2014 County Meath, Ireland",
+        "city": "Clonee, County Meath (near Dublin), Ireland",
+        "region": "EMEA \u2014 Ireland (EirGrid)",
+        "lat": 53.415,
+        "lon": -6.442,
+        "status": "Operational",
+        "category": "Owned International Campus",
+        "mw": 190.0,
+        "mw_unit": "MW Est. Capacity (1,076,961 MWh consumed in 2024 = 122.9 MW average draw; \u20ac1.4B invested)",
+        "pue": "1.08",
+        "hardware": "EMEA FoA Compute & Storage",
+        "power_utility": "EirGrid (100% Irish wind/solar PPAs)",
+        "cooling_water": "571 megaliters water withdrawal in 2024",
+        "docket_gate": "CRU Ireland de facto Dublin grid connection moratorium on new data centers (existing Clonee load grandfathered)",
+        "conf": "[HIGH \u2014 Meta 2025 Env. Data Index p. 6 (MWh); LOW \u2014 MW est.]",
+        "obs_date": "2026-11-07",
+        "notes": "Meta's largest international campus by electricity draw (1.08 TWh in 2024, +12.9% YoY)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.435,
+          55.362
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Odense Data Center Campus \u2014 Odense, Denmark",
+        "city": "Odense, Funen, Denmark",
+        "region": "EMEA \u2014 Nordics",
+        "lat": 55.362,
+        "lon": 10.435,
+        "status": "Operational",
+        "category": "Owned International Campus",
+        "mw": 100.0,
+        "mw_unit": "MW Est. Capacity (569,374 MWh consumed in 2024 = 65.0 MW average draw; $1.87B invested)",
+        "pue": "1.08",
+        "hardware": "3 Data Centers (900,000+ sq ft) with Fjernvarme Fyn waste-heat recovery",
+        "power_utility": "Energinet (100% Danish wind PPAs)",
+        "cooling_water": "292 megaliters water withdrawal in 2024; waste heat warms ~11,000 Danish homes",
+        "docket_gate": "Operational",
+        "conf": "[HIGH \u2014 Meta 2025 Env. Data Index p. 6 (MWh); LOW \u2014 MW est.]",
+        "obs_date": "2026-11-07",
+        "notes": "Consumed 569,374 MWh in 2024 (+9.9% YoY)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.142,
+          65.618
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Lule\u00e5 Data Center Campus \u2014 Lule\u00e5, Sweden",
+        "city": "Lule\u00e5, Norrbotten, Sweden",
+        "region": "EMEA \u2014 Nordics",
+        "lat": 65.618,
+        "lon": 22.142,
+        "status": "Operational",
+        "category": "Owned International Campus",
+        "mw": 90.0,
+        "mw_unit": "MW Est. Capacity (468,809 MWh consumed in 2024 = 53.5 MW average draw; ~$835M invested)",
+        "pue": "1.07 (Arctic free-air cooling)",
+        "hardware": "3 Data Centers (~1M sq ft)",
+        "power_utility": "Vattenfall / Lule\u00e5 Energi (100% Lule River hydropower)",
+        "cooling_water": "29 megaliters water withdrawal in 2024",
+        "docket_gate": "Operational (opened 2013; Meta's first international site)",
+        "conf": "[HIGH \u2014 Meta 2025 Env. Data Index p. 6 (MWh); LOW \u2014 MW est.]",
+        "obs_date": "2026-11-07",
+        "notes": "Consumed 468,809 MWh in 2024 (+33.2% YoY)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.694,
+          1.3185
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "Singapore Data Center \u2014 Tanjong Kling, Singapore",
+        "city": "30 Sunview Way / Tanjong Kling, Jurong West, Singapore",
+        "region": "APAC \u2014 Southeast Asia",
+        "lat": 1.3185,
+        "lon": 103.694,
+        "status": "Operational",
+        "category": "Owned International Campus",
+        "mw": 150.0,
+        "mw_unit": "MW Design Capacity (1.8M sq ft 11-story vertical data center; S$1.4B / ~$1.0B invested)",
+        "pue": "1.15\u20131.20 (Tropical StatePoint Liquid Cooling)",
+        "hardware": "APAC FoA Compute & Storage",
+        "power_utility": "SP Group + Sembcorp / Sunseap solar PPAs",
+        "cooling_water": "StatePoint Liquid Cooling (minimizes tropical water & energy consumption)",
+        "docket_gate": "IMDA/EDB Singapore DC-CFA capacity caps",
+        "conf": "[MEDIUM \u2014 Meta Official Singapore Profile]",
+        "obs_date": "2026-11-07",
+        "notes": "Meta's only owned Asian data center (opened 2022)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.765,
+          41.105
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Cheyenne AI Data Center Campus \u2014 Cheyenne, WY",
+        "city": "Cheyenne, Laramie Co., WY",
+        "region": "US \u2014 Mountain West (WECC)",
+        "lat": 41.105,
+        "lon": -104.765,
+        "status": "Under Construction",
+        "category": "Owned AI-Optimized Campus",
+        "mw": 800.0,
+        "mw_unit": "MW Planned Campus Capacity (715,000+ sq ft initial phase, $800M+ initial / multi-GW expansion corridor)",
+        "pue": "Closed-Loop Liquid Cooling (~1.08 target)",
+        "hardware": "AI-Optimized Next-Gen GPU / MTIA Clusters",
+        "power_utility": "Black Hills Energy (Large Power Contract Service LPCS microgrid tariff + Wyoming wind)",
+        "cooling_water": "Closed-loop liquid cooling (zero cooling water most of year)",
+        "docket_gate": "Wyoming PSC Black Hills LPCS tariff",
+        "conf": "[MEDIUM \u2014 Meta July 2, 2024 Announcement & Black Hills filings]",
+        "obs_date": "2026-11-07",
+        "notes": "Meta's 21st US data center, leveraging Cheyenne's high-altitude cooling and LPCS tariff."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.365,
+          32.285
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Montgomery AI Data Center Campus \u2014 Montgomery, AL",
+        "city": "Montgomery, Montgomery Co., AL",
+        "region": "US \u2014 Southeast (SERC)",
+        "lat": 32.285,
+        "lon": -86.365,
+        "status": "Under Construction",
+        "category": "Owned AI-Optimized Campus",
+        "mw": 300.0,
+        "mw_unit": "MW Est. Capacity (~1.3M sq ft after 2-building expansion; $1.5B+ investment; online late 2026)",
+        "pue": "Closed-Loop Liquid Cooling (~1.08 target)",
+        "hardware": "AI-Optimized GPU / MTIA Rack Architecture",
+        "power_utility": "Alabama Power (Southern Company)",
+        "cooling_water": "Closed-loop liquid cooling",
+        "docket_gate": "Alabama PSC large-load generation filings",
+        "conf": "[HIGH \u2014 Meta May 2, 2024 Announcement & Expansion Release; LOW \u2014 MW est.]",
+        "obs_date": "2026-11-07",
+        "notes": "Doubled in scope from $800M to $1.5B+ and ~1.3M sq ft before opening."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.825,
+          43.485
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Beaver Dam AI Data Center Campus \u2014 Beaver Dam, WI",
+        "city": "Beaver Dam, Dodge Co., WI",
+        "region": "US \u2014 Midwest (MISO)",
+        "lat": 43.485,
+        "lon": -88.825,
+        "status": "Under Construction",
+        "category": "Owned AI-Optimized Campus",
+        "mw": 220.0,
+        "mw_unit": "MW Planned Capacity (700,000+ sq ft, $1.0B+ investment, broke ground Nov. 2025, online 2027)",
+        "pue": "Closed-Loop Dry/Liquid Cooling (~1.08 target)",
+        "hardware": "AI-Optimized GPU / MTIA Clusters",
+        "power_utility": "Alliant Energy (Wisconsin Power and Light \u2014 Beaver Dam Commerce Park)",
+        "cooling_water": "Dry/closed-loop liquid cooling (zero cooling water most of year) + 570-acre Ducks Unlimited wetland restoration",
+        "docket_gate": "PSCW Alliant Energy individual customer rate docket",
+        "conf": "[MEDIUM \u2014 Meta Nov. 2025 Release & Compute Atlas (220 MW)]",
+        "obs_date": "2026-11-07",
+        "notes": "Meta's 30th global data center."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.785,
+          33.565
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Aiken / Graniteville AI Data Center Campus \u2014 Aiken, SC",
+        "city": "Graniteville, Aiken Co., SC",
+        "region": "US \u2014 Southeast (SERC)",
+        "lat": 33.565,
+        "lon": -81.785,
+        "status": "Under Construction",
+        "category": "Owned AI-Optimized Campus",
+        "mw": 200.0,
+        "mw_unit": "MW Planned Capacity (715,000 sq ft, $800M+ investment, broke ground 2024, online late 2026/2027)",
+        "pue": "Closed-Loop Liquid Cooling (~1.08 target)",
+        "hardware": "AI-Optimized GPU / MTIA Clusters",
+        "power_utility": "Dominion Energy South Carolina",
+        "cooling_water": "Closed-loop liquid cooling",
+        "docket_gate": "SC PSC Dominion Energy resource plan",
+        "conf": "[MEDIUM \u2014 Meta Aug. 2024 Release & Compute Atlas (200 MW)]",
+        "obs_date": "2026-11-07",
+        "notes": "Located in Sage Mill Industrial Park near the Georgia line."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.675,
+          38.355
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Jeffersonville AI Data Center Campus \u2014 Jeffersonville, IN",
+        "city": "Jeffersonville, Clark Co. (River Ridge), IN",
+        "region": "US \u2014 Midwest (MISO)",
+        "lat": 38.355,
+        "lon": -85.675,
+        "status": "Under Construction",
+        "category": "Owned AI-Optimized Campus",
+        "mw": 200.0,
+        "mw_unit": "MW Est. Capacity (700,000 sq ft, $800M+ investment, online late 2026)",
+        "pue": "Closed-Loop Liquid Cooling",
+        "hardware": "AI-Optimized GPU / MTIA Clusters",
+        "power_utility": "Duke Energy Indiana (MISO)",
+        "cooling_water": "Closed-loop liquid cooling",
+        "docket_gate": "IURC Duke Energy large-load tariff",
+        "conf": "[HIGH \u2014 Meta Jan. 2024 Release; LOW \u2014 MW est.]",
+        "obs_date": "2026-11-07",
+        "notes": "Located at River Ridge Commerce Center across from Louisville, KY."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.085,
+          44.725
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Rosemount AI Data Center Campus \u2014 Rosemount, MN",
+        "city": "Rosemount, Dakota Co. (UMore Park), MN",
+        "region": "US \u2014 Midwest (MISO)",
+        "lat": 44.725,
+        "lon": -93.085,
+        "status": "Under Construction",
+        "category": "Owned AI-Optimized Campus",
+        "mw": 200.0,
+        "mw_unit": "MW Est. Capacity (715,000 sq ft, $800M+ investment, online late 2026)",
+        "pue": "Closed-Loop Liquid Cooling",
+        "hardware": "AI-Optimized GPU / MTIA Clusters",
+        "power_utility": "Xcel Energy Minnesota (MISO)",
+        "cooling_water": "Closed-loop liquid cooling",
+        "docket_gate": "Minnesota PUC Xcel large-load & diesel backup air-permit review",
+        "conf": "[HIGH \u2014 Meta March 2024 Release; LOW \u2014 MW est.]",
+        "obs_date": "2026-11-07",
+        "notes": "Built on 280 acres of University of Minnesota UMore Park land."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.625,
+          41.465
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Bowling Green / Wood County AI Data Center \u2014 Middleton Twp., OH",
+        "city": "Bowling Green / Middleton Twp., Wood Co., OH",
+        "region": "US \u2014 Midwest (PJM)",
+        "lat": 41.465,
+        "lon": -83.625,
+        "status": "Under Construction",
+        "category": "Owned AI-Optimized Campus (Prometheus Midwest Constellation)",
+        "mw": 200.0,
+        "mw_unit": "MW Est. Capacity (700,000+ sq ft, $800M+ investment, online 2027)",
+        "pue": "Closed-Loop Liquid Cooling",
+        "hardware": "AI-Optimized GPU / MTIA Clusters linked via Prometheus BAG fiber",
+        "power_utility": "FirstEnergy (Toledo Edison / PJM)",
+        "cooling_water": "Closed-loop liquid cooling",
+        "docket_gate": "PUCO FirstEnergy transmission dockets; Wood County unincorporated township tax abatement (grandfathered pre-Nov. 2026)",
+        "conf": "[MEDIUM \u2014 Ohio I-75 Corridor Filings & Meta Announcement]",
+        "obs_date": "2026-11-07",
+        "notes": "Second Ohio campus complementing New Albany."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.855,
+          36.215
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Tulsa AI Data Center Campus \u2014 Tulsa, OK",
+        "city": "Tulsa, Tulsa Co., OK",
+        "region": "US \u2014 Plains (SPP)",
+        "lat": 36.215,
+        "lon": -95.855,
+        "status": "Under Construction",
+        "category": "Owned AI-Optimized Campus",
+        "mw": 250.0,
+        "mw_unit": "MW Est. Capacity ($1.0B+ investment announced April 2026; Meta's 32nd global data center)",
+        "pue": "Closed-Loop Liquid Cooling",
+        "hardware": "AI-Optimized GPU / MTIA Clusters",
+        "power_utility": "Public Service Company of Oklahoma (PSO / AEP \u2014 SPP)",
+        "cooling_water": "Closed-loop liquid cooling ($25M+ local water & road infrastructure funded by Meta)",
+        "docket_gate": "Oklahoma Corporation Commission PSO large-load generation filings",
+        "conf": "[HIGH \u2014 Meta April 2026 Official Release; LOW \u2014 MW est.]",
+        "obs_date": "2026-11-07",
+        "notes": "Meta's 32nd global data center and first in Oklahoma."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.8305,
+          39.9635
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Talavera de la Reina Proposed Mega-Campus \u2014 Castilla-La Mancha, Spain",
+        "city": "Talavera de la Reina, Toledo, Spain",
+        "region": "EMEA \u2014 Southern Europe",
+        "lat": 39.9635,
+        "lon": -4.8305,
+        "status": "Proposed",
+        "category": "Proposed Owned International Mega-Campus",
+        "mw": 300.0,
+        "mw_unit": "MW Est. Capacity (3.2M sq ft / 300,000 sqm on 190 hectares; \u20ac1.0B+ investment via Global Villacreces S.L.)",
+        "pue": "Closed-Loop Cooling",
+        "hardware": "EU AI & FoA Compute",
+        "power_utility": "Red El\u00e9ctrica de Espa\u00f1a / Iberdrola (Spanish solar/wind)",
+        "cooling_water": "Tagus River basin water & local agricultural opposition under PSI regional review",
+        "docket_gate": "Castilla-La Mancha Proyecto de Singular Inter\u00e9s (PSI) environmental & water permit gates",
+        "conf": "[MEDIUM \u2014 Castilla-La Mancha PSI Filings]",
+        "obs_date": "2026-11-07",
+        "notes": "Would become Meta's largest European campus if permitted."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.2185,
+          17.6868
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Visakhapatnam Proposed Data Center \u2014 Andhra Pradesh, India",
+        "city": "Visakhapatnam (Vizag), Andhra Pradesh, India",
+        "region": "APAC \u2014 South Asia",
+        "lat": 17.6868,
+        "lon": 83.2185,
+        "status": "Proposed",
+        "category": "Reported Partner Campus (Sify Technologies)",
+        "mw": 150.0,
+        "mw_unit": "MW Reported Target Capacity (Subsea cable landing & South Asian AI/FoA hub)",
+        "pue": "Liquid Cooled",
+        "hardware": "APAC FoA & AI Inference",
+        "power_utility": "APEPDCL / Indian solar-wind hybrid PPAs",
+        "cooling_water": "Coastal / closed-loop cooling",
+        "docket_gate": "Reported Sify Technologies partnership; not yet formally confirmed in Meta 32-site count",
+        "conf": "[LOW \u2014 Industry Press Reports]",
+        "obs_date": "2026-11-07",
+        "notes": "Pairs with Meta's Waterworth subsea cable landing in Vizag."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.025,
+          39.486
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Nebius Group (NBIS) \u2014 $27B 5-Year Meta Bare-Metal GPU Cluster",
+        "city": "Vineland, NJ / Kansas City, MO / Independence, MO (US Neocloud Hubs)",
+        "region": "US \u2014 External Neocloud Partner",
+        "lat": 39.486,
+        "lon": -75.025,
+        "status": "Operational",
+        "category": "External Neocloud Bare-Metal Lease ($27B 5-Yr Contract)",
+        "mw": 1200.0,
+        "mw_unit": "MW Estimated Contracted Meta Allocation (~$27B 5-year bare-metal deal across 2026\u20132031)",
+        "pue": "1.10\u20131.15 (Partner Direct-to-Chip Liquid Cooling)",
+        "hardware": "NVIDIA GB200 / GB300 NVL72 & Vera Rubin NVL72 Bare-Metal Clusters",
+        "power_utility": "PJM / SPP / ERCOT Partner Colocation & Greenfield Sites",
+        "cooling_water": "Partner closed-loop liquid cooling",
+        "docket_gate": "Included inside Meta's $355.73B uncommenced leases & $454.52B non-cancelable purchase commitments (Q3 2026 10-Q Note 10)",
+        "conf": "[MEDIUM \u2014 Financial Press / Vicki Corpus citing $27B 5-yr Meta-Nebius contract]",
+        "obs_date": "2026-11-07",
+        "notes": "Part of Meta's >5 GW 1H 2026 external neocloud contracting blitz."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.6989,
+          33.0198
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "CoreWeave (CRWV) \u2014 $21B Expanded Meta Bare-Metal GPU Cluster",
+        "city": "Plano / Denton, TX & Chester, VA (US Neocloud Hubs)",
+        "region": "US \u2014 External Neocloud Partner",
+        "lat": 33.0198,
+        "lon": -96.6989,
+        "status": "Operational",
+        "category": "External Neocloud Bare-Metal Lease ($21B Contract through Dec. 2032)",
+        "mw": 1000.0,
+        "mw_unit": "MW Estimated Contracted Meta Allocation ($14.2B Sept. 2025 deal expanded in April 2026 to $21.0B through Dec. 2032)",
+        "pue": "1.10\u20131.15 (Partner Liquid Cooling)",
+        "hardware": "NVIDIA H200, GB200 NVL72 & GB300 NVL72 Bare-Metal Clusters",
+        "power_utility": "ERCOT / PJM Partner Colocation Sites (Digital Realty, CyrusOne, Core Scientific)",
+        "cooling_water": "Partner closed-loop liquid cooling",
+        "docket_gate": "Included inside Meta's $355.73B uncommenced leases & $454.52B non-cancelable contractual commitments",
+        "conf": "[HIGH \u2014 CoreWeave SEC Filings / April 2026 Expansion to $21B]",
+        "obs_date": "2026-11-07",
+        "notes": "Together with Nebius ($27B), represents ~$48B of committed external neocloud GPU capacity."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.4874,
+          39.0438
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Leased Data Center Colocation Fleet (3.07 TWh in 2024; Expanding to >3 GW)",
+        "city": "Ashburn, VA / Santa Clara, CA / Dallas, TX / Frankfurt / Tokyo (Multi-Region Colo)",
+        "region": "Global \u2014 Colocation Leases",
+        "lat": 39.0438,
+        "lon": -77.4874,
+        "status": "Operational",
+        "category": "Third-Party Colocation Leases (Digital Realty, Equinix, Vantage, QTS)",
+        "mw": 650.0,
+        "mw_unit": "MW Active Colocation Fleet in 2025\u20132026 (3,069,504 MWh consumed in 2024 = 350.4 MW avg draw, +40.4% YoY)",
+        "pue": "1.12\u20131.20 (Colocation Average)",
+        "hardware": "FoA Edge PoPs, Inference Clusters & Rapid-Scale Prometheus Overflow",
+        "power_utility": "Multi-Utility Grid Supply (100% matched with EACs)",
+        "cooling_water": "883 megaliters water withdrawal in 2024",
+        "docket_gate": "Reflected in $26.58B Operating Lease ROU Assets + $11.70B Finance Lease ROU Assets on Q3 2026 Balance Sheet",
+        "conf": "[HIGH \u2014 Meta 2025 Env. Data Index p. 6 (3,069,504 MWh) & Q3 2026 10-Q]",
+        "obs_date": "2026-11-07",
+        "notes": "Leased data center electricity tripled from 964,650 MWh in 2021 to 3,069,504 MWh in 2024."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.735,
+          40.095
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Williams (WMB) \u2014 400 MW Behind-the-Meter Gas Plants (Prometheus Ohio)",
+        "city": "New Albany / Licking Co., OH",
+        "region": "US \u2014 Dedicated Power Asset",
+        "lat": 40.095,
+        "lon": -82.735,
+        "status": "Under Construction",
+        "category": "Dedicated Power Plant (Non-Additive to IT Load)",
+        "mw": 400.0,
+        "mw_unit": "MW Gross Behind-the-Meter Natural Gas Generation (2x 200 MW plants)",
+        "pue": "N/A (Power Generation)",
+        "hardware": "Natural Gas Turbines / Engines + Pipeline Interconnect built by The Williams Companies",
+        "power_utility": "Behind-the-Meter (Bypasses AEP Ohio PJM transmission bottleneck)",
+        "cooling_water": "Dry / closed-loop turbine cooling",
+        "docket_gate": "Ohio EPA air permits; deployed to bridge AEP Ohio grid delays for Prometheus",
+        "conf": "[MEDIUM \u2014 SemiAnalysis & MLQ News June 2026]",
+        "obs_date": "2026-11-07",
+        "notes": "Non-additive power supply entry supporting Prometheus (#1)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.61,
+          32.425
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Entergy Louisiana \u2014 10 Combined-Cycle Gas Plants for Hyperion (7,540 MW)",
+        "city": "Richland Parish, St. Charles Parish (Waterford) & Pointe Coupee Parish, LA",
+        "region": "US \u2014 Dedicated Power Asset",
+        "lat": 32.425,
+        "lon": -91.61,
+        "status": "Under Construction",
+        "category": "Dedicated Power Plant (Non-Additive to IT Load)",
+        "mw": 7540.0,
+        "mw_unit": "MW Gross Utility Gas Generation (2,262 MW Approved in U-37425 + 5,278 MW Pending in U-37882)",
+        "pue": "N/A (Power Generation)",
+        "hardware": "10x ~754 MW Combined-Cycle Gas Turbines (CCGTs) + 240 miles of 500 kV lines + 4,000 MW solar",
+        "power_utility": "Entergy Louisiana (20-year Laidley / Evest ESA)",
+        "cooling_water": "Richland & Mississippi River cooling systems",
+        "docket_gate": "Phase 1 (3 plants, 2,262 MW) approved Aug. 20, 2025 (online late 2028\u20132029); Phase 2 (7 plants, >5,200 MW) LPSC vote Dec. 16, 2026; $3.4B unamortized Yr-20 residual dispute",
+        "conf": "[HIGH \u2014 LPSC Dockets U-37425 & U-37882]",
+        "obs_date": "2026-11-07",
+        "notes": "Non-additive utility generation fleet built for Hyperion (#2)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.8342,
+          40.1719
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "Constellation Clinton Clean Energy Center \u2014 1,121 MW Nuclear PPA",
+        "city": "Clinton, DeWitt Co., IL",
+        "region": "US \u2014 Dedicated Power Asset",
+        "lat": 40.1719,
+        "lon": -88.8342,
+        "status": "Operational",
+        "category": "Dedicated Power Plant (Non-Additive to IT Load)",
+        "mw": 1121.0,
+        "mw_unit": "MW Nuclear Baseload PPA (20-Year Agreement Starting June 2027, incl. +30 MW uprate)",
+        "pue": "N/A (Power Generation)",
+        "hardware": "Boiling Water Reactor (BWR) Nuclear Station",
+        "power_utility": "Constellation Energy (CEG \u2014 MISO Zone 4 / Illinois Grid)",
+        "cooling_water": "Clinton Lake cooling reservoir",
+        "docket_gate": "Signed June 2025; commences June 2027 when Illinois zero-emission credits expire",
+        "conf": "[HIGH \u2014 Meta & Constellation June 6, 2025 Joint Announcement]",
+        "obs_date": "2026-11-07",
+        "notes": "Non-additive nuclear power contract preserving 1,121 MW of carbon-free baseload."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.005,
+          39.0125
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "Oklo Pike County \u2014 1,200 MW Advanced Fast Reactor Nuclear Agreement",
+        "city": "Piketon, Pike Co., OH",
+        "region": "US \u2014 Dedicated Power Asset",
+        "lat": 39.0125,
+        "lon": -83.005,
+        "status": "Proposed",
+        "category": "Dedicated Power Plant (Non-Additive to IT Load)",
+        "mw": 1200.0,
+        "mw_unit": "MW Planned Gen-IV Aurora Fast Reactor Campus (First Phase Targeted 2030, Full Scale by 2035)",
+        "pue": "N/A (Power Generation)",
+        "hardware": "Oklo Aurora Liquid-Metal Fast Reactors (PJM Ohio Grid for Prometheus)",
+        "power_utility": "Oklo Inc. (PJM Interconnect)",
+        "cooling_water": "Former Portsmouth Gaseous Diffusion PlantDOE site",
+        "docket_gate": "NRC Combined License (COL) & HALEU fuel supply gates; part of Meta's Jan. 9, 2026 6.6 GW nuclear package",
+        "conf": "[HIGH \u2014 Meta & Oklo Jan. 9, 2026 Announcement]",
+        "obs_date": "2026-11-07",
+        "notes": "Non-additive long-term nuclear supply agreement for Meta's Ohio clusters."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.1436,
+          41.8008
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "Vistra & TerraPower \u2014 Up to 5,400 MW Nuclear Fleet & Natrium SMR Agreements",
+        "city": "Perry & Davis-Besse, OH / Beaver Valley, PA / Kemmerer, WY",
+        "region": "US \u2014 Dedicated Power Asset",
+        "lat": 41.8008,
+        "lon": -81.1436,
+        "status": "Proposed",
+        "category": "Dedicated Power Plant (Non-Additive to IT Load)",
+        "mw": 5400.0,
+        "mw_unit": "MW Combined Nuclear Portfolio (Remainder of Meta's Jan. 9, 2026 'Up to 6.6 GW' Nuclear Package)",
+        "pue": "N/A (Power Generation)",
+        "hardware": "Vistra PJM Nuclear Fleet Uprates/PPAs + TerraPower 345 MW Natrium Sodium Fast Reactors w/ 500 MW Molten Salt Storage",
+        "power_utility": "Vistra Corp. (VST) & TerraPower (PJM & WECC Grids)",
+        "cooling_water": "Lake Erie / Ohio River / Western closed-loop systems",
+        "docket_gate": "NRC licensing & FERC co-location/grid cost-allocation dockets (2028\u20132035 delivery window)",
+        "conf": "[HIGH \u2014 Meta Jan. 9, 2026 Nuclear Announcement]",
+        "obs_date": "2026-11-07",
+        "notes": "Together with Oklo (1.2 GW) and Constellation Clinton (1.12 GW), brings Meta's contracted/targeted nuclear portfolio to ~7.72 GW."
+      }
+    }
+  ]
+}
